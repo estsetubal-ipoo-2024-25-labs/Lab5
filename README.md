@@ -26,7 +26,7 @@
 
     :pencil2: Deve criar um método `increasePrice (double)` que aumenta o preço do produto.
 
-    :pencil2: Defina um método para vender um produto  `int sell(int)`que diminui a quantidade existente em stock. Caso a quantidade que se pretende vender é superior à existente em stock, é vendida a quantidade em stock e retornada a quantidade que não foi possível vender. Caso a venda seja efetuada na sua totalidade o método retorna0.
+    :pencil2: Defina um método para vender um produto  `int sell(int)`que diminui a quantidade existente em stock. Caso a quantidade que se pretende vender seja superior à existente em stock, é vendida a quantidade em stock e retornada a quantidade que não foi possível vender. Caso a venda seja efetuada na sua totalidade o método retorna 0.
    
     :pencil2: Defina o método `toString`.
    
@@ -47,15 +47,15 @@
 
 2. A direção da EST Setúbal decidiu criar um sistema informático para que fosse possível saber a informação e a localização dos serviços dentro do edifício da escola. Neste sentido foi necessário identificar  as salas da EST.
 
-    :pencil2: Crie uma classe (`Room`), com os atributos para definir o bloco onde a sala se localiza (representado por uma letra), o piso (representado por um número), o número de sala e, por último, um atributo para saber se a sala é usada par serviços administrativos ou não.
+    :pencil2: Crie uma classe (`Room`), com os atributos para definir o bloco onde a sala se localiza (representado por uma letra), o piso (representado por um número), o número de sala e, por último, um atributo para saber se a sala é usada para serviços administrativos ou não.
 
      :pencil2: Crie um construtor que deverá inicializar os atributos (bloco, piso, número) com os valores recebidos . Faça a validação dos valores tendo em conta que o bloco é representado por uma letra entre A e F, o piso por um algarismo entre 1 e 3, o número por um valor entre 0 e 99. O valor do atributo administrativo indica se a sala é usada ou não para serviços administrativos. 
     
-    - :bulb: Por defeito a sala é criada com não administrativa.
+    ​	:bulb: Por defeito a sala é criada como não administrativa.
     
-    - :bulb: Caso a validação falhe deverá ser lançado um erro ( `IllegalArgumentException`)
+    ​	:bulb: Caso a validação falhe deverá ser lançada uma exceção ( `IllegalArgumentException`)
     
-      
+    
     
     :pencil2: Defina métodos `get` e `set`para os atributos administrativa e piso.
     
@@ -66,8 +66,8 @@
    📝Crie uma classe `Program` (método `main`) que:
    
    - Crie uma sala no bloco E, piso 2, com o número 3
-   - Mostrar a informação da sala no seguinte formato de texto: Sala <nome sala> ( ex: Sala E203 ).
-   - Mostrar numa outra linha: Sala administrativa ou Não é sala administrativa consoante o caso (faça uso de uma expressão ternária).
+   - Mostre a informação da sala no seguinte formato de texto: Sala <nome sala> ( ex: Sala E203 ).
+   - Mostre numa outra linha: Sala administrativa ou Não é sala administrativa consoante o caso (faça uso de uma expressão ternária).
    
    
 
@@ -105,7 +105,7 @@ máquina:
 desde a última vez que a máquina foi abastecida, bem como o respetivo método `get`. Atualize o
 método construtor para inicializar este atributo com o valor 0.
 :pencil2: Adicione um método `resetSoldCoffee()`  que deverá de colocar o contador de cafés vendidos a zero.
-:pencil2: Altere o método `takeCoffee()` para que passe a incrementar o número de cafés vendidos aquando a
+:pencil2: Altere o método `takeCoffee()` para que passe a incrementar o número de cafés vendidos aquando da
 tiragem de um café.
 
 :pencil2: Adicione um novo atributo que identifica o preço por café (**coffeePrice**) e o seu respetivo
